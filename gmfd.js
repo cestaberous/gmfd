@@ -7,3 +7,13 @@ function jscall(jsarray) {
         document.write('"></script>')
     }
 }
+
+function csscall(cssarray) {
+    var i = 0;
+    for (i = 0; i < cssarray.length; i++) {
+        var file = cssarray[i];
+        document.write('<link rel="stylesheet" type="text/css" href="')
+        document.write(file)
+        document.write('"></script>')
+    }
+}
